@@ -2,7 +2,9 @@ name: Docker
 
 on:
   push:
+    branches: [ lineage-15.1 ]
   pull_request:
+    branches: [ lineage-15.1 ]
 
 env:
   REGISTRY: docker.io
